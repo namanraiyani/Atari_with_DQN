@@ -1,0 +1,22 @@
+import torch
+
+BATCH_SIZE = 32
+GAMMA = 0.99
+EPS_START = 1.0
+EPS_END = 0.1
+EPS_DECAY = 100000
+TARGET_UPDATE = 1000
+MEMORY_SIZE = 100000
+LR = 1e-4
+NUM_EPISODES = 5000
+
+GAME_WIDTH = 600
+GAME_HEIGHT = 700
+INFO_WIDTH = 500
+TOTAL_WIDTH = GAME_WIDTH + INFO_WIDTH
+TOTAL_HEIGHT = GAME_HEIGHT
+FPS = 30
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+ACTION_NAMES = {0: "NOOP", 1: "FIRE", 2: "RIGHT", 3: "LEFT"}

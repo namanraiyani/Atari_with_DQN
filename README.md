@@ -1,4 +1,5 @@
-# Atari_with_DQN
+# Atari with DQN
+
 ![vid9 (1)](https://github.com/user-attachments/assets/4c71ae8c-aecd-4fd8-b451-8c1a2059d031)
 
 -----
@@ -48,7 +49,7 @@ Once running, a window will appear with two sections:
       * **Epsilon:** The current probability of taking a random action (exploration rate).
       * **Graph:** A live plot of raw Reward (Cyan) vs. 50-Episode Moving Average (White).
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 atari_breakout/
